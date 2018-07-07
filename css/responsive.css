@@ -1,0 +1,1059 @@
+/* Large Layout:  */
+@media only screen and (min-width: 1200px){
+
+}
+
+/*  Midium Layout:*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+/*home*/
+.left-side {
+  width: 192px;
+}
+.right-side {
+  padding-left: 190px;
+}
+.welcome-content h1 {
+  font-size: 60px;
+  line-height: 60px;
+}
+.welcome-content span {
+  font-size: 70px;
+}   
+.welcome-content {
+  font-size: 17px;
+} 
+/*about*/
+.btn-color1 {
+  padding: 13px 55px 12px;
+}
+.b_btn {
+  margin-left: 180px;
+}
+.btn-color2 {
+  padding: 12px 21px 13px;
+}
+.about-content {
+  padding-right: 13px;
+}
+.about-content ul {
+  padding-right: 0;
+}
+.about-content li {
+  font-size: 16px;
+}
+.about-content span {
+  font-size: 13px;
+}
+.about-content a {
+  font-size: 16px;
+}
+/*resume*/
+.left-content h1, .right-content h1 {
+font-size: 35px;
+}
+.s_exp > h2 {
+  font-size: 15px;
+}
+.s_exp > h3 {
+  font-size: 19px;
+}
+/*gallery*/
+.gallery_menu ul li {
+  padding: 5px 26px;
+}
+.gallery_menu ul li::after {
+  top: 15px;
+}
+/*testimonial*/
+
+.testimonial {
+  padding-right: 40px;
+}
+.testi_p {
+  max-width: 320px;
+}
+
+/*service*/
+ .s_service {
+  margin-right: 0px;
+  width: 330px;
+}
+/*my_skill*/
+.progress_bar ul {
+  width: 217px;
+}
+.p_b_a {
+  right: -3px;
+}
+.p_b_e {
+  right: 10px;
+}
+.p_b_b {
+  right: 38px;
+}
+.skill_menu li {
+  padding: 0 15px 0 0;
+}
+.skill_menu li .fa.fa-circle {
+  margin-right: 11px;
+}
+.s_count {
+  width: 105px;
+}
+/*contact*/
+.hire_me {
+  float: left;
+}
+.btn {
+  width: 28px;
+}
+#googleMap {
+  height: 620px;
+}
+}
+  
+
+
+/* Tablet Layout: 768px. */
+
+@media (min-width: 768px) and (max-width: 991px) {
+/*home page*/
+.left-side {
+  width: 80px;
+}
+.menu ul li a span {
+  display: none;
+}
+.right-side {
+  padding-left: 80px;
+  position: relative;
+}
+.left-img {
+ height: 100%;
+}
+.logo img {
+  width: 30px;
+}
+.content-list {
+  overflow: visible;
+  position: relative;
+}
+.single-content {
+    position: static;
+    height: auto;
+}
+.welcome-content {
+  padding: 80px 0px;
+  text-align: center;
+}
+.hire-me {
+  margin-left: 90px;
+  padding-top: 44px;
+}
+/*about*/
+.about-content h1 {
+  padding-top: 90px;
+}
+.about-content, .plan-content {
+  text-align: center;
+}
+.about-content ul {
+  padding-right: 0px;
+}
+.about-content li {
+  text-align: left;
+}
+/*work*/
+.work-plan {
+  padding-left: 110px;
+  width: 500px;
+}
+.plan-content{
+  padding-top: 12px;
+}
+.Work_Schedule-content > h1 {
+  padding-top: 95px;
+}
+.Work_Schedule-content {
+     text-align: center;
+}
+.work_schedule {
+  padding-left: 208px;
+  text-align: left;
+}
+/*service*/
+.service-content h1 {
+  padding-top: 48px;
+}
+.service-content {
+  padding-left: 0px;
+  text-align: center;
+}
+
+.service {
+   padding-left: 70px;
+}
+.s_service {
+   width: 220px;
+}
+.my_skill{
+  padding-top: 38px;
+}
+.skill_side h1 {
+  padding-bottom: 35px;
+}
+.skill_side {
+  text-align: center;
+}
+.progress_bar ul {
+    padding-left: 62px;
+    width: 382px;
+}
+.p_right_a {
+  right: 160px;
+  top: 155px;
+}
+.p_right_b {
+  right: 70px;
+  top: 200px;
+}
+.p_right_c {
+    right: 176px;
+    top: 243px;
+}
+.p_right_d {
+  right: 143px;
+  top: 288px;
+}
+.p_right_e {
+  right: 154px;
+  top: 330px;
+}
+
+.count_skill {
+  padding-left: 25px;
+}
+.s_count {
+  width: 145px;
+}
+.gray_bg {
+   margin-top: 100px;
+}
+.left-content, .right-content {
+  text-align: center;
+}
+.right-content {
+  margin-right: 1px;
+}
+/*gallery*/
+.gallery > h1 {
+  padding-top: 50px;
+}
+.gallery {
+    text-align: center;
+    margin-top: 40px;
+}
+.gallery_items {
+  margin-left: 18px;
+}
+/*testimonial*/
+.testimonial {
+  padding-top:91px;
+  margin-right: 0px;
+}
+.testimonial > h1 {
+  padding-bottom: 35px;
+  padding-left: 75px;
+}
+.slider {
+  padding-left: 75px;
+}
+
+.john {
+  text-align: left;
+}
+.testi_p {
+  max-width: 370px;
+}
+.testi-next, .testi-prev {
+  right: 0;
+}
+.testi-prev {
+  bottom: 430%;
+}
+.testi-next {
+  bottom: 410%;
+}
+.single_nav:after{
+    width: 100%;
+}
+.s_nav_icon {
+    left: 52%;
+    top: 50%;
+}
+.map {
+    margin-top: 60px;
+    padding-left: 0;
+}
+.map, .testimonial > h1{
+  text-align: center;
+}
+
+.contact_side > h1 {
+  text-align: center;
+  padding-top: 90px;
+}
+.contact_form > h1 {
+  text-align: center;
+}
+
+.contact_icon {
+  padding-left: 55px;
+}
+.input-group {
+  padding-left: 36px;
+  width: 96%;
+}
+.submit {
+  margin-bottom: 50px;
+  text-align: center;
+  margin-left: 206px;
+}
+.scroll {
+  background: #c0392b none repeat scroll 0 0;
+  bottom: 2%;
+  padding: 0 5px;
+  position: fixed;
+  right: 3%;
+  z-index: 9999;
+    
+}
+
+.social-icon {
+      background: #22313f  none repeat scroll 0 0;
+      bottom: 0;
+      left: -300%;
+      padding: 8px;
+      position: absolute;
+      width: 192px;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+.share_icon {
+    bottom: 9px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 21px;
+    padding-left: 25px;
+    position: absolute;
+    text-align: center;
+}
+.share_icon:hover {
+  color: #C0392B;
+}
+.hide-icon.hidden-md.hidden-lg.fa.fa-times {
+  color: #C0392B;
+  position: absolute;
+  right: -5px;
+  top: -8px;
+  cursor: pointer;
+}
+    .social-icon.f_social_icon{
+        left: 0;
+    }
+    .scroll {
+  position: fixed;
+}
+.menu ul li a {
+  font-size: 20px;
+  text-align: center;
+}
+.menu ul li a .fa.fa-home {
+  font-size: 21px;
+  margin-left: 20px;
+}
+.menu ul li a .fa.fa-thumbs-up {
+  font-size: 21px;
+}
+.iii.flaticon.flaticon-business-contacts-on-spring-address-book {
+  font-size: 21px;
+}
+[class^="flaticon-"]::before, [class*=" flaticon-"]::before, [class^="flaticon-"]::after, [class*=" flaticon-"]::after {
+  font-size: 18px;
+}
+
+}
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 479px) {
+    /*home page*/
+    h1 {
+      font-size: 28px;
+      text-align: center;
+    }
+    .left-side {
+      width: 50px;
+    }
+    .logo > a {
+      font-size: 19px;
+    }
+    .logo img {
+      width: 28px;
+    }
+    .menu ul li a {
+      font-size: 14px;
+    }
+    .menu ul li a span {
+      display: none;
+    }
+    .menu ul li a .fa.fa-home {
+      font-size: 16px;
+      margin-left: 17px;
+    }
+    .menu ul li a .fa.fa-thumbs-up {
+      font-size: 17px;
+    }
+     
+    [class^="flaticon-"]::before, [class*=" flaticon-"]::before, [class^="flaticon-"]::after, [class*=" flaticon-"]::after {
+      font-size: 13px;
+    }
+
+    .social-icon {
+          background: #22313f  none repeat scroll 0 0;
+          bottom: 0;
+          left: -300%;
+          padding: 8px;
+          position: absolute;
+          width: 192px;
+        -webkit-transition: 0.5s;
+        -o-transition: 0.5s;
+        transition: 0.5s;
+    }
+    .share_icon {
+        bottom: 9px;
+        color: #ffffff;
+        cursor: pointer;
+        font-size: 21px;
+        padding-left: 25px;
+        position: absolute;
+        text-align: center;
+    }
+    .hide-icon.hidden-md.hidden-lg.fa.fa-times {
+      color: #000;
+      position: absolute;
+      right: -5px;
+      top: -8px;
+      cursor: pointer;
+    }
+    .social-icon.f_social_icon{
+        left: 0;
+    }
+    .right-side {
+      padding-left: 50px;
+      position: relative;
+    }
+    .content-list {
+      overflow: visible;
+      position: relative;
+    }
+    .single-content {
+        position: static;
+        height: auto;
+    }
+    .welcome-content {;
+        font-size: 16px;
+        margin-left: 0px;
+        padding: 40px 0 30px;
+        text-align: center;
+    }
+    .welcome-content h1 {
+        font-size: 45px;
+        line-height: 45px;
+    }
+    .welcome-content span {
+     font-size: 47px;
+    }
+    .hire-me {
+      margin-left: 10px;
+    }
+        .a_btn {
+      margin-left: 3px;
+    }
+    .btn-color1 {
+      padding: 13px 65px 12px;
+    }
+    .b_btn {
+      margin-left: 0;
+      margin-top: 12px;
+    }
+    .btn-color2 {
+      padding: 12px 40px 13px;
+    }
+    .about-content {
+      text-align: center;
+      margin-left: 0;
+    }
+    .about-content, .right-content > h1 {
+      padding-right: 0;
+    }
+    .about-content li {
+      font-size: 18px;
+      padding: 12px 0 30px;
+      
+    }
+    .about-content span {
+      display: block;
+      float: none;
+      font-size: 14px;
+    }
+    .about-content a {
+      font-size: 15px;
+      padding: 12px 25px;
+    }
+    .plan-content h1, .Work_Schedule-content h1 {
+      padding-bottom: 30px;
+    }
+    .plan-content {
+      margin-left: 0;
+    }
+
+    .work_schedule {
+      margin-left: 25px;
+    }
+    .s_w_content h2 {
+      font-size: 20px;
+    }
+    .s_w_content h3 {
+      font-size: 14px;
+    }
+    .work-plan {
+        margin-left: 5px;
+        width: 250px;
+    }
+    .s_work_plan {
+      height: 115px;
+      width: 112px;
+    }
+    .s_work_plan h1 {
+      font-size: 25px;
+      height: 34px;
+      padding: 0;
+      width: 34px;
+    }
+    .s_work_plan h2 {
+      font-size: 47px;
+      height: 50px;
+      padding: 0 10px;
+      width: 50px;
+    }
+    .s_work_plan h3 {
+      font-size: 20px;
+      top: 50%;
+    }
+    .service-content {
+      padding-left: 0;
+    }
+    .service {
+      padding-left: 9px;
+    }
+    .s_service {
+      margin-left: -8px;
+      margin-right: 0;
+      padding: 25px 0;
+      text-align: center;
+      width: 238px;
+    }
+    .progress-bar {
+      left: 30px;
+    }
+    .progress_bar ul {
+      width: 96%;
+    }
+    .p_b_a {
+      right: -2px;
+    }
+    .p_b_b {
+      right: 42px;
+    }
+    .p_b_e {
+      right: 13px;
+    }
+    .p_right_a {
+      top: 104px;
+      left: 28px;
+    }
+    .p_right_b {
+      top: 151px;
+      left: 28px;
+    }
+    .p_right_c {
+      top: 197px;
+      left: 28px;
+    }
+    .p_right_d {
+      left: 28px;
+      top: 242px;
+    }
+    .p_right_e {
+      top: 285px;
+      left: 28px;
+    }
+    .skill_menu {
+      padding-top: 46px;
+    }
+    .skill_menu > ul {
+      margin-left: 17px;
+    }
+    .skill_menu li {
+      padding: 8px 10px 0 0;
+    }
+ 
+    .count_skill {
+      margin-left: 0px;
+    }
+    .s_count {
+      margin-bottom: 21px;
+      margin-right: 0;
+      width: 117px;
+      height: 125px;
+    -webkit-transition: .4s;
+    -o-transition: .4s;
+    transition: .4s;
+    }
+    .left-content {
+      background: #f6f5f5 none repeat scroll 0 0;
+      left: 0;
+      padding-left: 0;
+      text-align: center;
+      top: 0%;
+      width: 100%;
+}
+.left-content > h1 {
+  margin-top: 50px;
+}
+.plan-content, .Work_Schedule-content, .service-content, .skill_side {
+  margin-left: 0;
+}
+.left-content h1, .right-content h1 {
+  padding-bottom: 27px;
+  padding-top: 0;
+}
+.right-content > h1 {
+  padding-bottom: 61px;
+}
+.s_exp {
+  margin-bottom: 46px;
+}
+.right-content {
+  margin-right: 45px;
+  margin-top: 465px;
+  position: relative;
+  text-align: center;
+  top: 100%;
+  width: 100%;
+  padding-left: 94px;;
+}
+.right-content > h1 {
+  padding-top: 68px;
+}
+.s_exp > h3 {
+  font-size: 18px;
+}
+.gallery {
+  padding-top: 50px;
+  margin-left: 27px;
+}
+
+.gallery_items {
+  margin-left: -6px;
+}
+.gallery > h1 {
+  padding-top: 10px;
+}
+.gallery_menu ul {
+  margin-left: -26;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.gallery_menu ul li {
+  display: block;
+  padding: 5px 12px;
+}
+.gallery_menu ul li::after {
+  width: 0;
+}
+
+.testimonial {
+  margin-left: 0;
+  padding-right: 21px;
+  margin-top: 0px;
+  overflow: hidden;
+}
+.testimonial > h1 {
+  padding-bottom: 16px;
+    margin-top: 0px;
+}
+.testi_p {
+  width: 207px;
+}
+.flexslider .slides img {
+  width: 15%;
+}
+.flex-control-thumbs img {
+  margin-left: 18px;
+  width: 70%;
+}
+.john {
+  margin-top: 25px;
+}
+.flex-nav-next {
+  right: -6%;
+}
+.flex-nav-prev {
+  right: -2%;
+}
+.map {
+  padding-left: 0;
+  margin-top: 30px;
+}
+#googleMap {
+  height: 215px;
+  width: 239px;
+}
+.contact_side {
+  padding-left: 0;
+}
+.contact_me{
+  margin-left: 57px;
+}
+.contact_side > h1 {
+  padding-top: 70px;
+  text-align: center;
+}
+.input-group {
+  width: 265px;
+  margin-left: 11px;
+}
+.share_icon {
+  font-size: 18px;
+  padding-left: 16px;
+  bottom: 0;
+}
+.social-icon {
+  left: -495%;;
+}
+.submit {
+  margin-left: 48px;
+  margin-bottom: 30px;
+}
+.scroll {
+  background: #c0392b none repeat scroll 0 0;
+  bottom: 1%;
+  padding: 0 5px;
+  position: fixed;
+  right: 3%;
+}
+.contact_side > h1 {
+  padding-top: 50px;
+}
+.contact_icon, .hire_me {
+  width: 100%;
+}
+.hire_me {
+  float: left;
+  margin-left: -14px;
+}
+.contact_icon > ul {
+  margin-left: -21px;
+}
+.input-group {
+   width: 96%;
+}
+}
+
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    /*home page*/
+    h1 {
+      font-size: 40px;
+    }
+    .left-side {
+      width: 50px;
+    }
+    .logo > a {
+      font-size: 22px;
+    }
+    .logo img {
+      width: 28px;
+    }
+   .menu ul li {
+      padding: 15px 0;
+    }
+    .menu ul li a span {
+      display: none;
+    }
+    .right-side {
+      padding-left: 50px;
+      position: relative;
+    }
+    .content-list {
+      overflow: visible;
+      position: relative;
+    }
+    .single-content {
+        position: static;
+        height: auto;
+    }
+    .welcome-content h1 {
+      font-size: 56px;
+      line-height: 56px;
+    }
+    .welcome-content span {
+      font-size: 60px;
+    }
+    .welcome-content {
+      font-size: 16px;
+      margin-left: 8px;
+      padding: 45px 0 75px;
+      text-align: center;
+    }
+    .b_btn {
+          margin-left: 165px;
+    }
+    .btn-color1 {
+      padding: 13px 49px 12px;
+    }
+    .btn-color2 {
+      padding: 12px 26px 13px;
+    }
+    .menu ul li a {
+      font-size: 20px;
+      text-align: center;
+    }
+    .menu ul li a .fa.fa-home {
+      font-size: 21px;
+      margin-left: 20px;
+    }
+    .menu ul li a .fa.fa-thumbs-up {
+      font-size: 21px;
+    }
+    .iii.flaticon.flaticon-business-contacts-on-spring-address-book {
+      font-size: 21px;
+    }
+    [class^="flaticon-"]::before, [class*=" flaticon-"]::before, [class^="flaticon-"]::after, [class*=" flaticon-"]::after {
+      font-size: 17px;
+    }
+    .scroll {
+      background: #c0392b none repeat scroll 0 0;
+      bottom: 2%;
+      padding: 0 5px;
+      position: fixed;
+      right: 3%;
+    }
+    .social-icon {
+        background: #22313f none repeat scroll 0 0;
+        bottom: 0;
+        left: -405%;
+        padding: 8px;
+        position: absolute;
+        transition: all 0.5s ease 0s;
+        width: 192px;
+}
+.share_icon {
+    bottom: 9px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 19px;
+    padding-left: 18px;
+    position: absolute;
+    text-align: center;
+}
+.hide-icon.hidden-md.hidden-lg.fa.fa-times {
+  color: #000;
+  position: absolute;
+  right: -5px;
+  top: -8px;
+  cursor: pointer;
+}
+    .social-icon.f_social_icon{
+        left: 0;
+    }
+.about-content {
+  padding-right: 0;
+  text-align: center;
+   margin-left: 15px;
+}
+
+.about-content ul {
+  padding-right: 15px;
+}
+.about-content li {
+  font-size: 15px;
+  text-align: left;
+}
+.about-content span {
+  font-size: 13px;
+}
+.about-content a {
+  font-size: 18px;
+  padding: 14px 23px;
+}
+.plan-content  h1, .Work_Schedule-content  h1, .service-content h1, .skill_side  h1, .skill_menu  ul, .testimonial  h1, .map > h1, .contact_form > h1,.gallery  {
+  text-align: center;
+}
+.plan-content, .Work_Schedule-content, .service-content, .skill_side {
+  margin-left: 0;
+}
+.work-plan {
+  padding-left: 21px;
+}
+.s_work_plan {
+  height: 180px;
+  width: 180px;
+}
+.work_schedule {
+  margin-left: 92px;
+}
+.s_service {
+  width: 300px;
+  margin-left: 40px;
+}
+.progress_bar ul {
+  list-style: outside none none;
+  width: 205px;
+}
+.progress_bar ul li {
+  margin-left: 0;
+  padding: 22px 15px;
+}
+.p_b_a::after {
+  right: 11px;
+}
+.p_b_e::after {
+  right: 5px;
+}
+.p_b_b::after {
+  right: -19px;
+  top: 16px;
+}
+.skill_menu li {
+  padding: 0;
+}
+.skill_menu li .fa.fa-circle {
+    font-size: 8px;
+    margin-right: 10px;
+    margin-left: 8px;
+}
+.gray_bg {
+  margin-top: 80px;
+}
+.left-content {
+    margin-left: 29px;
+    padding: 0;
+    text-align: center;
+    width: 50%;
+}
+.right-content {
+    margin-right: 0px;
+    text-align: center;
+    width: 50%;
+}
+
+.s_exp > h2 {
+  font-size: 16px;
+}
+.s_exp > h3 {
+  font-size: 18px;
+}
+.s_count {
+    height: 125px;
+    margin-left: 10px;
+    margin-right: 23px;
+}
+.s_count a {
+  font-size: 17px;
+}
+.s_count > h2 {
+  font-size: 15px;
+}
+.gallery > h1 {
+  padding-top: 90px;
+}
+.gallery_items {
+    margin-left:75px ;
+    }
+    .gallery_menu ul li {
+      padding: 4px 20px;
+    }
+.gallery_menu ul li::after {
+  top: 14px;
+}
+.testimonial {
+  margin-left: 0;
+  padding-right: 20px;
+  overflow: hidden;
+}
+.testimonial > h1 {
+    margin-left: 30px;
+    padding-bottom: 23px;
+    padding-top: 90px;
+}
+.testi_p > p {
+  width: 278px;
+}
+.slider {
+  margin-left: 30px;
+}
+.flexslider .slides img {
+  width: 10%;
+}
+.john {
+  margin-top: 36px;
+}
+.flex-nav-next {
+  right: -3%;
+}
+.map > h1 {
+  padding-bottom: 30px;
+  padding-top: 80px;
+}
+#googleMap {
+  height: 300px;
+  width: 349px;
+}
+.contact_side > h1 {
+  text-align: center;
+}
+.contact_icon > ul {
+  margin-top: 10px;
+}
+.contact_icon ul li {
+  font-size: 14px;
+  padding: 6px 0;
+}
+.contact_icon ul li a {
+  font-size: 15px;
+  margin-right: 12px;
+}
+.hire_me {
+  width: 154px;
+}
+.btn {
+  height: 24px;
+  width: 24px;
+}
+.input-group {
+  width: 355px;
+}
+.submit {
+  margin-bottom: 50px;
+  margin-left: 102px;
+  width: 118px;
+}
+}
